@@ -1,0 +1,10 @@
+app:
+  name: "trans"
+http:
+  port: 8005
+  read_timeout: 1m
+  write_timeout: 1m
+  shutdown_timeout: 5s
+api:
+  url: "http://localhost:9000/asr"
+  audio_storage: "http://localhost:8004/audio/"
